@@ -1,0 +1,1182 @@
+<!-- Comment often -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Siowy's Bootstrap Playground</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="diamond.png">
+  </head>
+  <body data-spy="scroll" data-target="#myscrollspy" data-offset="50">
+    <div class="container">
+      <br>
+      <div class="page-header">
+        <h1>Eggs, Spam and Python</h1>
+      </div>
+      <div class="row">
+        <!-- Fading tab panes -->
+        <div class="col-md-6">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">What are these?</a></li>
+            <li><a data-toggle="tab" href="#menu1">Usage</a></li>
+            <li><a data-toggle="tab" href="#menu2">Ideas</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+              <h3>These are fading tab panes</h3>
+              <p>Don't they look nice?</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+              <h3>Useful to reduce scrolling</h3>
+              <p>Collapsibles are another option for this.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <h3>You can add a background picture</h3>
+              <p>Or just use these to split text into logical sections.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Fading pill panes -->
+        <div class="col-md-6">
+          <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#home1">What are these</a></li>
+            <li><a data-toggle="pill" href="#menu3">Usage</a></li>
+            <li><a data-toggle="pill" href="#menu4">Ideas</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="home1" class="tab-pane fade in active">
+              <h3>These are fading pill panes</h3>
+              <p>Very similar to the fading tab panes.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+              <h3>Useful to reduce scrolling</h3>
+              <p>Just like the tab panes.</p>
+            </div>
+            <div id="menu4" class="tab-pane fade">
+              <h3>You can add a background picture</h3>
+              <p>Or just use these to split text into logical sections.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div><hr></div>
+      <!-- Dark navbar -->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Dark navbar</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Who we are
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Mission</a></li>
+                  <li><a href="#">Vision</a></li>
+                  <li><a href="#">About us</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <button class="btn btn-primary navbar-btn">Cute button</button>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Light navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarfixed">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Light navbar</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbarfixed">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Development</a></li>
+                  <li><a href="#">Dungeons</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Achievements</a></li>
+              <li><a href="#">Interests</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <button class="btn btn-primary navbar-btn">Cute button</button>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Nav tabs with dropdown menu and no bar -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Nav</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tabs
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Drop</a></li>
+                <li><a href="#">Down</a></li>
+                <li><a href="#">Menu</a></li>
+              </ul>
+            </li>
+            <li><a href="#">With</a></li>
+            <li><a href="#">No Bar</a></li>
+          </ul>
+
+          <br>
+          <br>
+          <!-- Nav pills with dropdown menu and no bar -->
+          <ul class="nav nav-pills">
+            <li class="active"><a href="#">Tabs</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pills
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Drop</a></li>
+                <li><a href="#">Down</a></li>
+                <li><a href="#">Menu</a></li>
+              </ul>
+            </li>
+            <li><a href="#">With</a></li>
+            <li><a href="#">No Bar</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <!-- Nav tabs stacked up-->
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">Nav</a></li>
+            <li><a href="#">Tabs</a></li>
+            <li><a href="#">Stacked</a></li>
+            <li><a href="#">Up</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- Nav tabs justified across -->
+      <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a href="#">Nav</a></li>
+        <li><a href="#">Tabs</a></li>
+        <li><a href="#">Justified</a></li>
+        <li><a href="#">Across</a></li>
+      </ul>
+      <br>
+      <!-- Nav pills justified across -->
+      <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="#">Nav</a></li>
+        <li><a href="#">Pills</a></li>
+        <li><a href="#">Justified</a></li>
+        <li><a href="#">Across</a></li>
+      </ul>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Breadcrumbs -->
+          <ul class="breadcrumb">
+            <li><a href="#">These</a></li>
+            <li><a href="#">Are</a></li>
+            <li><a href="#">Called</a></li>
+            <li class="active">Breadcrumbs</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <!-- Dropdown menu button -->
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">Header</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Another link</a></li>
+              <li><a href="#">Yet another link</a></li>
+              <li class="disabled"><a href="#">Disabled link</a></li>
+              <!-- Dropdown menu divider -->
+              <li class="divider"></li>
+              <li><a href="#">Divider above</a></li>
+              <li class="active"><a href="#">Active link</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <h1>A Header in h1 <small>and some side text</small></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper est et ipsum sodales, sit amet luctus ligula interdum. Curabitur luctus massa tellus, id aliquam nisi tempus sed. <mark>Marked text</mark> cursus ipsum a mauris egestas, sit amet ultrices ipsum sollicitudin. Curabitur efficitur euismod tortor id tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Integer in <abbr title="Hyper Text Markup Language">Abbreviated text</abbr> nulla, eget ornare enim. Integer convallis et diam a blandit. Aliquam condimentum fringilla est, ac posuere massa blandit eu. Morbi urna nunc, fermentum tempus ante in, faucibus egestas sem. Ut suscipit facilisis sapien quis placerat. Vestibulum vitae nulla metus. Quisque semper nulla id risus aliquam, eget porttitor turpis luctus. Nulla eu nisl laoreet, euismod arcu eu, hendrerit dui. Vestibulum hendrerit, ante ac ullamcorper viverra, <kbd>alt + f4</kbd> massa ultricies diam, quis sollicitudin odio risus in magna. Proin eleifend id felis id sodales. Duis <code>print</code> diam ut porttitor tempus. Quisque ullamcorper tristique ex, non vulputate dui volutpat eu. Vivamus <code>len</code> malesuada pretium.</p>
+        <hr>
+        <pre>
+This is text in a pre element. It
+preserves spaces and line breaks.
+Cras vel neque sit amet metus maximus
+varius vel eu justo. Curabitur eget
+elit a lacus feugiat placerat non a
+nunc. Maecenas at augue id nisi
+bibendum sodales sed at nunc.</pre>
+        <hr>
+        <blockquote>
+          <p>"Never attribute to malice that which is adequately explained by stupidity."</p>
+          <footer>Hanlon's Razor</footer>
+        </blockquote>
+        <blockquote class="blockquote-reverse">
+          <p>“The only thing necessary for the triumph of evil is for good men to do nothing.”</p>
+          <footer>Edmund Burke</footer>
+        </blockquote>
+        <hr>
+        <p class="text-center">This is some centered text. Morbi vitae ipsum et lacus rhoncus viverra. Nulla et dictum leo. Nulla ultricies odio et enim faucibus, et bibendum elit ornare. Nullam a odio dictum, placerat metus in, interdum ipsum. Curabitur vitae elementum tortor. Cras feugiat lectus nec mi dictum accumsan. Nullam scelerisque enim sed tellus aliquet faucibus.</p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <p class="text-muted">This text is muted.</p>
+          <p class="text-primary">This text is important.</p>
+          <p class="text-success">This text indicates success.</p>
+          <p class="text-info">This text represents some information.</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-warning">This text represents a warning.</p>
+          <p class="text-danger">This text represents danger.</p>
+          <p class="bg-primary">This text is important.</p>
+          <p class="bg-success">This text indicates success.</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="bg-info">This text represents some information.</p>
+          <p class="bg-warning">This text represents a warning.</p>
+          <p class="bg-danger">This text represents danger.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-4">
+          <table class="table table-striped table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>This</th>
+                <th>Is a </th>
+                <th>Table</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-4 table-responsive">
+          <table class="table table-striped table-bordered table-hover table-condensed">
+            <thead>
+              <tr>
+                <th>This table</th>
+                <th>Is more</th>
+                <th>Condensed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-4">
+          <dl>
+            <dt>Life</dt>
+            <dd>- a journey small and big</dd>
+            <dt>Death</dt>
+            <dd>- the end of a journey</dd>
+            <dt>Your Name</dt>
+            <dd>- the top japanese anime movie of all time</dd>
+          </dl>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="https://img.buzzfeed.com/buzzfeed-static/static/2016-01/20/15/enhanced/webdr05/enhanced-28545-1453322894-9.jpg">
+              <img src="https://img.buzzfeed.com/buzzfeed-static/static/2016-01/20/15/enhanced/webdr05/enhanced-28545-1453322894-9.jpg" alt="Lights" class="img-responsive">
+              <div class="caption">
+                <p>This is a cat picture caption.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="https://s-media-cache-ak0.pinimg.com/736x/29/9e/56/299e56ab07c75af6407289ecc4ab1dd6.jpg">
+              <img src="https://s-media-cache-ak0.pinimg.com/736x/29/9e/56/299e56ab07c75af6407289ecc4ab1dd6.jpg" alt="Nature" class="img-responsive">
+              <div class="caption">
+                <p>This is another cat picture caption.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="http://www.top13.net/wp-content/uploads/2015/10/perfectly-timed-funny-cat-pictures-5.jpg">
+              <img src="http://www.top13.net/wp-content/uploads/2015/10/perfectly-timed-funny-cat-pictures-5.jpg" alt="Fjords" class="img-responsive">
+              <div class="caption">
+                <p>This is the final cat picture caption.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="embed-responsive embed-responsive-16by9" >
+            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1ixmepmLTMw" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img class="img-rounded img-responsive" src="https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_1280.png" alt="cat's eyes">
+        </div>
+        <div class="col-md-4">
+          <img class="img-circle img-responsive" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt="buildings in fog">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-thumbnail" src="https://www.w3schools.com/css/img_fjords.jpg" alt="girl doing yoga in canyon">
+        </div>
+      </div>
+      <hr>
+      <div class="jumbotron">
+        <h1>This is jumbotron h1 text.</h1>
+        <p>This is jumbotron p text.</p>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="well">Well text</div>
+        </div>
+        <div class="col-md-4">
+          <div class="well well-sm">Small well text</div>
+        </div>
+        <div class="col-md-4">
+          <div class="well well-lg">Large well text</div>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <div class="alert alert-success">
+          <strong>Success!</strong> Indicates a successful or positive action. You should <a href="#" class="alert-link">read this message</a>
+        </div>
+        <div class="alert alert-info">
+          <strong>Info!</strong> Indicates a neutral informative change or action. You should <a href="#" class="alert-link">read this message</a>
+        </div>
+        <div class="alert alert-warning alert-dismissable fade in">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Warning!</strong> Indicates a warning that might need attention. You should <a href="#" class="alert-link">read this message</a>
+        </div>
+        <div class="alert alert-danger alert-dismissable fade in">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Danger!</strong> Indicates a dangerous or potentially negative action. You should <a href="#" class="alert-link">read this message</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <button type="button" class="btn btn-default btn-block">Block button</button>
+        <button type="button" class="btn btn-primary active">Active</button>
+        <button type="button" class="btn btn-primary disabled">Disabled</button>
+        <button type="button" class="btn btn-primary btn-lg">Primary</button>
+        <button type="button" class="btn btn-primary btn-md">Primary</button>
+        <button type="button" class="btn btn-primary btn-sm">Primary</button>
+        <button type="button" class="btn btn-primary btn-xs">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
+        <br>
+        <!-- This is a button group -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-success">This is</button>
+          <button type="button" class="btn btn-info">a button</button>
+          <button type="button" class="btn btn-warning">group</button>
+        </div>
+        <!-- This is a large button group -->
+        <div class="btn-group btn-group-lg">
+          <button type="button" class="btn btn-success">This is</button>
+          <button type="button" class="btn btn-info">a large button</button>
+          <button type="button" class="btn btn-warning">group</button>
+        </div>
+        <br>
+        <br>
+        <!-- This button group is justified -->
+        <div class="btn-group btn-group-justified">
+          <a href="#" class="btn btn-primary">This button</a>
+          <a href="#" class="btn btn-primary">group is</a>
+          <a href="#" class="btn btn-primary">justified</a>
+        </div>
+        <br>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Apple</button>
+          <button type="button" class="btn btn-primary">Samsung</button>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Dropdown <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Tablet</a></li>
+              <li><a href="#">Smartphone</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Sony</button>
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">Smartphone</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+          <p>Envelope icon as a link:
+            <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+          </p>
+          <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+          <p>Search icon on a button:
+            <button type="button" class="btn btn-default">
+              <span class="glyphicon glyphicon-search"></span> Search
+            </button>
+          </p>
+          <p>Search icon on a styled button:
+            <button type="button" class="btn btn-info">
+              <span class="glyphicon glyphicon-search"></span> Search
+            </button>
+          </p>
+          <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
+          <p>Print icon on a styled link button:
+            <a href="#" class="btn btn-success btn-lg">
+              <span class="glyphicon glyphicon-print"></span> Print
+            </a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <a href="#">News <span class="badge">5</span></a><br>
+          <a href="#">Comments <span class="badge">10</span></a><br>
+          <a href="#">Updates <span class="badge">2</span></a><br>
+          <button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+          <h1>Example <span class="label label-default">Default</span></h1>
+          <h2>Example <span class="label label-primary">Primary</span></h2>
+          <h3>Example <span class="label label-success">Success</span></h3>
+          <h4>Example <span class="label label-info">Info</span></h4>
+          <h5>Example <span class="label label-warning">Warning</span></h5>
+          <h6>Example <span class="label label-danger">Danger</span></h6>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+              <span class="sr-only">70% Complete</span>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                70%
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+            aria-valuemin="0" aria-valuemax="100" style="width:40%">
+              40% Complete (success)
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+            aria-valuemin="0" aria-valuemax="100" style="width:50%">
+              50% Complete (info)
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+            aria-valuemin="0" aria-valuemax="100" style="width:60%">
+              60% Complete (warning)
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+              70% Complete (danger)
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar"
+          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            40%
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+            Free Space
+          </div>
+          <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+            Warning
+          </div>
+          <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+            Danger
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="list-group">
+            <li class="list-group-item">Ham</li>
+            <li class="list-group-item">Eggs</li>
+            <li class="list-group-item">Spam</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">DotA</a>
+            <a href="#" class="list-group-item">Civilization II</a>
+            <a href="#" class="list-group-item">Atlas Reactor</a>
+            <a href="#" class="list-group-item">Donkey Kong</a>
+            <a href="#" class="list-group-item disabled">Pong</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-success">First item</li>
+            <li class="list-group-item list-group-item-info">Second item</li>
+            <li class="list-group-item list-group-item-warning">Third item</li>
+            <li class="list-group-item list-group-item-danger">Fourth item</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+            <div class="panel-footer">Panel Footer</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">Panel with panel-default class</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+
+            <div class="panel panel-primary">
+              <div class="panel-heading">Panel with panel-primary class</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+
+            <div class="panel panel-success">
+              <div class="panel-heading">Panel with panel-success class</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+
+            <div class="panel panel-info">
+              <div class="panel-heading">Panel with panel-info class</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+
+            <div class="panel panel-warning">
+              <div class="panel-heading">Panel with panel-warning class</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+
+            <div class="panel panel-danger">
+              <div class="panel-heading">Panel with panel-danger class</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <a href="#demo" data-toggle="collapse">Collapsible</a>
+          <div id="demo" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus hendrerit dolor ac suscipit. Curabitur et congue lacus, vitae tempus massa. Pellentesque non ante sit amet neque auctor lobortis. Curabitur efficitur at risus in fermentum. Proin elit enim, posuere at urna in, laoreet sagittis nulla.
+          </div><br>
+          <button data-toggle="collapse" data-target="#demo2">Collapsible</button>
+          <div id="demo2" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus hendrerit dolor ac suscipit. Curabitur et congue lacus, vitae tempus massa. Pellentesque non ante sit amet neque auctor lobortis. Curabitur efficitur at risus in fermentum. Proin elit enim, posuere at urna in, laoreet sagittis nulla.
+          </div>
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse1">Collapse header</a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus hendrerit dolor ac suscipit. Curabitur et congue lacus, vitae tempus massa. Pellentesque non ante sit amet neque auctor lobortis. Curabitur efficitur at risus in fermentum. Proin elit enim, posuere at urna in, laoreet sagittis nulla.</div>
+                <div class="panel-footer">Panel Footer</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse2">Web development skills</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">Javascript</li>
+                  <li class="list-group-item">CSS</li>
+                </ul>
+                <div class="panel-footer">Footer</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                  Collapsible Group 1</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse in">
+                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                  Collapsible Group 2</a>
+                </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                  Collapsible Group 3</a>
+                </h4>
+              </div>
+              <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row div -->
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <form>
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-8">
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Password:</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <ul class="pagination">
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+      <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+      </ul>
+      <ul class="pager">
+        <li class="previous"><a href="#">Previous</a></li>
+        <li class="next"><a href="#">Next</a></li>
+      </ul>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Option 1</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Option 2</label>
+          </div>
+          <div class="checkbox disabled">
+            <label><input type="checkbox" value="" disabled>Option 3</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label class="checkbox-inline"><input type="checkbox" value="">Option 1</label>
+          <label class="checkbox-inline"><input type="checkbox" value="">Option 2</label>
+          <label class="checkbox-inline"><input type="checkbox" value="">Option 3</label>
+        </div>
+        <div class="col-md-4">
+          <div class="radio">
+            <label><input type="radio" name="optradio">Option 1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">Option 2</label>
+          </div>
+          <div class="radio disabled">
+            <label><input type="radio" name="optradio" disabled>Option 3</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <label class="radio-inline"><input type="radio" name="optradio">Option 1</label>
+          <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
+          <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
+        </div>
+        <div class="col-md-4">
+            <form>
+              <div class="form-group">
+                <label for="sel1">Select list (select one):</label>
+                <select class="form-control" id="sel1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+                <br>
+                <label for="sel2">Multiple select list (hold shift to select more than one):</label>
+                <select multiple class="form-control" id="sel2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+          <form>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">Text</span>
+              <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4"></div>
+          <h2>Horizontal form: control states</h2>
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Focused</label>
+              <div class="col-sm-10">
+                <input class="form-control" id="focusedInput" type="text" value="Click to focus...">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword" class="col-sm-2 control-label">Disabled</label>
+              <div class="col-sm-10">
+                <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+              </div>
+            </div>
+            <fieldset disabled>
+              <div class="form-group">
+                <label for="disabledTextInput" class="col-sm-2 control-label">Disabled input and select list (Fieldset disabled)</label>
+                <div class="col-sm-10">
+                  <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="disabledSelect" class="col-sm-2 control-label"></label>
+                <div class="col-sm-10">
+                  <select id="disabledSelect" class="form-control">
+                    <option>Disabled select</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+            <div class="form-group has-success has-feedback">
+              <label class="col-sm-2 control-label" for="inputSuccess">Input with success and glyphicon</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputSuccess">
+                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+              </div>
+            </div>
+            <div class="form-group has-warning has-feedback">
+              <label class="col-sm-2 control-label" for="inputWarning">Input with warning and glyphicon</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputWarning">
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+              </div>
+            </div>
+            <div class="form-group has-error has-feedback">
+              <label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputError">
+                <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+              </div>
+            </div>
+          </form>
+        <div class="col-md-4">
+          <form>
+            <div class="form-group">
+              <label for="inputdefault">Default input</label>
+              <input class="form-control" id="inputdefault" type="text">
+            </div>
+            <div class="form-group">
+              <label for="inputlg">input-lg</label>
+              <input class="form-control input-lg" id="inputlg" type="text">
+            </div>
+            <div class="form-group">
+              <label for="inputsm">input-sm</label>
+              <input class="form-control input-sm" id="inputsm" type="text">
+            </div>
+          </form>
+        </div>
+      </div>
+            <!-- Left-aligned -->
+      <div class="media">
+        <div class="media-left">
+          <img src="idea.png" class="media-object" style="width:60px">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">John Doe</h4>
+          <p>Lorem ipsum...</p>
+        </div>
+      </div>
+      <!-- Right-aligned -->
+      <div class="media">
+        <div class="media-body">
+          <h4 class="media-heading">John Doe</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="media-right">
+          <img src="browser.png" class="media-object" style="width:60px">
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="http://4.bp.blogspot.com/-L9DGcIbZvkk/VS-XXtdEWtI/AAAAAAAATzQ/w1sPSWOC0bI/s1600/Nature-Wallpaper-daydreaming-34811094-1024-768.jpg" alt="Chania">
+            <div class="carousel-caption">
+              <h3>Nature 1</h3>
+              <p>Lorem ipsum dolores et.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://www.pageresource.com/wallpapers/wallpaper/amazing-natural-beauty-of-nature-galeries-d-243833.jpg" alt="Chania">
+            <div class="carousel-caption">
+              <h3>Nature 2</h3>
+              <p>Lorem ipsum dolores et.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://wallpaperil.com/wp-content/uploads/2016/01/wallpaper-nature-beauty-full-size.jpg" alt="Flower">
+            <div class="carousel-caption">
+              <h3>Nature 3</h3>
+              <p>Lorem ipsum dolores et.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://img.xcitefun.net/users/2011/04/241197,xcitefun-natural-beautiful-nature-6.jpg" alt="Flower">
+            <div class="carousel-caption">
+              <h3>Nature 4</h3>
+              <p>Lorem ipsum dolores et.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <br>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Hover</a><br>
+      <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Hover</a><br>
+      <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Hover</a><br>
+      <a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Hover</a><br>
+      <a href="#" title="Dismissible popover" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Click anywhere in the document to close this popover">Popover right</a>
+
+      <nav id="myscrollspy" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Siowy's Bootstrap Playground</a>
+          </div>
+          <div>
+            <div class="collapse navbar-collapse" id="myNavbar2">
+              <ul class="nav navbar-nav">
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#section41">Section 4-1</a></li>
+                    <li><a href="#section42">Section 4-2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="section1" class="container-fluid">
+        <h1>Section 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      <div id="section2" class="container-fluid">
+        <h1>Section 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      <div id="section3" class="container-fluid">
+        <h1>Section 3</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      <div id="section41" class="container-fluid">
+        <h1>Section 4 Submenu 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      <div id="section42" class="container-fluid">
+        <h1>Section 4 Submenu 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+
+
+    </div> <!-- main container wrapper -->
+    <br><br>
+    <footer class="footer">
+      <p class="text-muted text-center">This is my footer text.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin=anonymous></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- script required to initialize Tooltip -->
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+    });
+    </script>
+  </body>
+</html>
